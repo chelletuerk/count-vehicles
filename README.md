@@ -12,7 +12,7 @@ A small library that counts different varieties of vehicles.
     const countVehicles = require('@chelletuerk/count-vehicles');
 
     const vehicles = ['car', 'car', 'truck', 'bike', 'boat', 'truck', 'car']
-    const counterVehicles = counter(vehicles);
+    const countVehicles = counter(vehicles);
 
 
   Output should be `{car: 3, truck: 2, bike: 1, boat: 1}`
